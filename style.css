@@ -1,0 +1,228 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box; font-family: sans-serif;
+}
+.navbar{
+    background-color: aliceblue !important;
+   
+}
+.container-fluid{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.hii{
+    border: .2px solid black;
+    border-right: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.login_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_reg input{
+   width: 300px;
+   height: 40px;
+}
+.login_reg p{
+    font-size: 13px;
+}
+.form-control1{
+    width: 370px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: .2px solid black;
+    border-left: none;
+}
+::placeholder{
+position: relative;
+left: 30px;
+}
+.lang_btn{
+    background: none;
+    color: black;
+}
+.header_right{
+    display: flex;
+}
+.header-2{
+    display: flex;
+    justify-content: start !important;
+    gap: 50px;
+    margin-left: 150px;
+}
+.loc{
+    margin-right: 100px;
+}
+
+.bg1{
+    height: 600px;
+    width: 100%;
+    background-image: url(images/landing-page-banner-8-15931.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.findcar{
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    right: -1000px;
+    top: 80px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+.fcbtn button{
+    padding: 10px;
+    width: 120px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+.radio-bt{
+    display: flex;
+}
+.select-budget{
+    width: 250px !important;
+    height: 45px;
+}
+.select{
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#findbtn{
+    padding: 10px;
+    width: 240px;
+    background-color: #F75D34;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.upperanchor a{
+
+ 
+    text-transform: uppercase;
+    text-decoration: none;
+
+    
+}
+.upperanchor a::after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: -7px;
+    content: "";
+    
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+
+}
+.upperanchor a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}}
+
+
+   .sec2{
+    height: 520px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 40px;
+    box-shadow: 5px 5px 25px gray;
+       
+   }
+   .sec2 ul{
+    display: inline-flex;
+    gap: 40px;
+    list-style: none;
+    margin-top: 20px;
+   }
+
+#suv,#hatchback,#sedan,#muv,#lux{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding-bottom: 80px;
+}   
+
+
+.sec2 ul li{
+	color: #323232;
+	
+	font-weight: bold;
+	position: relative;
+	outline: none !important;
+	text-transform: uppercase;
+	transition: 0.2s;
+    cursor: pointer;
+
+    
+}
+.sec2 ul li::after{
+    content: "";
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 0;
+	transition: 0.2s;
+
+}
+.sec2 ul li:hover:after { 
+    background-color: #4c2be2;
+	width: 100%;
+  }
+  @media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}}
+
+    footer{
+        height: 540px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 60px;
+        padding-top: 30px;
+        background-image: url(images/footer.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 5px 5px 25px gray;
+        padding-left: 20px;
+
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        color: #ECEDED;
+    }
+    footer ul li{
+          color: rgb(236,237,237);
+          font-size: 10px;
+    }
+   
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+    }
+    .icons svg:hover{
+        cursor: pointer;
+        transform: scale(1.4);
+        transition: 0.3s ease ;
+    }
