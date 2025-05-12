@@ -234,3 +234,112 @@ left: 30px;
         text-decoration: none;
        color: purple;
     }
+
+/* Tablet view (width < 992px) */
+@media screen and (max-width: 991px) {
+  .container-fluid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-2 {
+    margin-left: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .findcar {
+    position: static;
+    margin: 40px auto;
+  }
+
+  .sec2 ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  #suv, #hatchback, #sedan, #muv, #lux {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    padding-left: 10px;
+    gap: 20px;
+    height: auto;
+  }
+
+  .icons {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+/* Mobile view (width < 768px) */
+@media screen and (max-width: 767px) {
+  .login_reg input,
+  .form-control1,
+  .select-budget,
+  #findbtn {
+    width: 90%;
+  }
+
+  .login_form {
+    flex-direction: column;
+  }
+
+  .header_right {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav2, .header-2 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .findcar {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .sec2 {
+    padding-left: 10px;
+  }
+
+  .sec2 ul {
+    gap: 10px;
+  }
+
+  footer ul {
+    align-items: center;
+  }
+}
+
+/* Small mobile screens (width < 480px) */
+@media screen and (max-width: 480px) {
+  .bg1 {
+    height: 400px;
+  }
+
+  .findcar {
+    height: auto;
+    padding: 20px;
+  }
+
+  .upperanchor a {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .icons svg {
+    width: 20px;
+    height: 20px;
+  }
+}
